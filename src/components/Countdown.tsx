@@ -2,7 +2,16 @@
 
 import { useState, useEffect } from 'react';
 
-const Countdown = () => {
+interface CountdownProps {
+  labels: {
+    days: string;
+    hours: string;
+    minutes: string;
+    seconds: string;
+  };
+}
+
+const Countdown = ({ labels }: CountdownProps) => {
     const [timeLeft, setTimeLeft] = useState({
         days: 0,
         hours: 0,
@@ -40,19 +49,19 @@ const Countdown = () => {
         <div className="countdown">
             <div className="unit">
                 <span className="number">{timeLeft.days}</span>
-                <span className="label">Days</span>
+                <span className="label">{labels.days}</span>
             </div>
             <div className="unit">
                 <span className="number">{timeLeft.hours}</span>
-                <span className="label">Hours</span>
+                <span className="label">{labels.hours}</span>
             </div>
             <div className="unit">
                 <span className="number">{timeLeft.minutes}</span>
-                <span className="label">Minutes</span>
+                <span className="label">{labels.minutes}</span>
             </div>
             <div className="unit">
                 <span className="number">{timeLeft.seconds}</span>
-                <span className="label">Seconds</span>
+                <span className="label">{labels.seconds}</span>
             </div>
         </div>
     );

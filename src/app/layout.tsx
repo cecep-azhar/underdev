@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Under Construction | Coming Soon",
-  description: "We are building something amazing. Stay tuned!",
+  title: "Dalam Perbaikan | Segera Hadir",
+  description: "Kami sedang membangun sesuatu yang luar biasa. Nantikan!",
 };
 
 export default function RootLayout({
