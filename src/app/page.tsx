@@ -40,8 +40,6 @@ export default function Home() {
             style={{ 
               objectFit: 'cover', 
               objectPosition: 'top center',
-              transform: 'scale(1.6) translateY(5%)',
-              transformOrigin: 'top center'
             }}
             priority
           />
