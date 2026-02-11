@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dalam Perbaikan | Segera Hadir",
+  title: "Dalam Perbaikan | Segera Hadir...",
   description: "Kami sedang membangun sesuatu yang luar biasa. Nantikan!",
 };
 
