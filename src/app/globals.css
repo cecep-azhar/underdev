@@ -42,10 +42,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   position: relative;
   z-index: 1;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   text-align: center; /* Ensure text is centered on all screens */
 }
 
@@ -160,7 +159,7 @@ p {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   main {
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
   
   h1 {
